@@ -1,0 +1,7 @@
+num1 = input("Enter first number: ")
+num2 = input("Enter second number:")
+sum = float(num1) + float(num2)
+difference = float(num1) - float(num2)
+product = float(num1) * float(num2)
+quotient = float(num1)/float(num2)
+print("The Additon is : ", sum , "\n" "The Substraction is :", difference , "\n" "The Product is : ", product , "\n" "The Divison is :", quotient)
