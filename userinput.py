@@ -1,7 +1,11 @@
-# In this section we will see how to take input from user
-a = input("Enter Your Name :-")
-print("Your Name is : " ,a)
+# To take any input we use input function with the data type 
 
-# Along with Data Type
-b = int(input("Enter the number :-"))
-print("The Entered Value is: " ,b)
+a = int(input("Enter the Number:"))
+print(a, type(a))
+
+b = str(input("Enter you name:"))
+print(b, type(b))
+
+c = float(input("Enter any number:"))
+print(c, type(c))
+
